@@ -14,7 +14,7 @@ class CPU {
     	}
     }
 }
-public class main {
+public class comp {
   public static void main(String[] args) {
 	CPU a = new CPU();
 	CPU.processor b = a.new processor();
