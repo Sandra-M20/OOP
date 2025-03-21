@@ -23,7 +23,8 @@ class Stringss{
 				 }
 				 }
 			}
-			System.out.print("String is : ");
+			System.out.println("------------------------------------------");
+			System.out.println("SORTED STRING IS : ");
 			for(int i=0;i<size;i++){
 				System.out.println(str[i]);
 			}
