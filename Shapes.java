@@ -13,6 +13,10 @@ public int area(int side)
 {
 return side*side;
 }
+public float areat(float base,float height)
+{
+return 0.5f*base*height;
+}
 public static void main(String args[])
 {
 Scanner sc=new Scanner(System.in);
@@ -20,7 +24,8 @@ Shapes cal=new Shapes();
 System.out.println("1.Circle");
 System.out.println("2.Rectangle");
 System.out.println("3.Square");
-System.out.println("4.EXIT");
+System.out.println("4.Triangle");
+System.out.println("5.EXIT");
 
 while(true)
 {
@@ -55,6 +60,16 @@ System.out.println("Area:"+cal.area(side));
 break;
 }
 case 4:
+{
+System.out.println("------TRIANGLE-------");
+System.out.println("Enter the base:");
+float base=sc.nextFloat();
+System.out.println("Enter the height:");
+float height=sc.nextFloat();
+System.out.println("Area:"+cal.areat(base,height));
+break;
+}
+case 5:
 {
 System.out.println("------Exit-------");
 System.exit(0);
